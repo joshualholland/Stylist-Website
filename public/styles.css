@@ -1,0 +1,98 @@
+body {
+    height: 100%;
+}
+
+.jumbotron {
+    overflow: hidden;
+    height: 100vh !important;
+    max-width: 100% !important;
+}
+
+main {
+    max-width: 100% !important;
+}
+
+.name {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+.about-photo {
+    margin-left: 0;
+    height: auto;
+    width: 700px;
+}
+
+.about-header {
+    font-family: garamond;
+}
+
+.gallery {
+    font-family: garamond;
+}
+
+.kelsy-img {
+    display: inline-block;
+}
+
+.kelsy-text {
+    display: inline-block;
+    vertical-align: top;
+    font-family: garamond;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-family: garamond;
+}
+
+.nav-item > .active {
+    border-bottom: 1px solid #D1CEC9;
+}
+
+.contact {
+    margin-left: 100em;
+    vertical-align: top;
+    display: inline-block;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 414px) {
+    .kelsy-img {
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    
+    .about-photo {
+        width: 300px;
+    }
+
+    .kelsy-text {
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        height: 160px;
+        max-width: 100%;
+        font-family: garamond;
+    }
+
+    .contact {
+        margin-left: 10px;
+    }
+
+    .jumbotron {
+        height: 60vh !important;
+    }
+
+    .top-desc {
+        font-size: 19px;
+        font-family: garamond;
+    }
+}

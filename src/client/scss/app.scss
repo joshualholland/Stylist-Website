@@ -1,0 +1,12 @@
+$theme-colors:(
+    "primary": #FDD2D9,
+    "secondary": #2A3440,
+    "danger": #75A0A9,
+    "info": #D2BA9A
+);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.covalence-blue {
+    color: #0091ea;
+}
